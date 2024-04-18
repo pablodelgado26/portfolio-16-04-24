@@ -68,3 +68,9 @@ section {
     min-height: 100vh; 
     padding: 4rem 16rem; 
   }
+
+.home {
+    display: flex; 
+    justify-content: center; 
+    gap: 16rem; 
+  }
