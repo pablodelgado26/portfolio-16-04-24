@@ -84,5 +84,14 @@ section {
 }
 
 span {
-    color: var(--main-color); /* Define a cor do texto */
+    color: var(--main-color); 
+}
+.logo span {
+    color: var(--main-color); 
+}
+
+.home-content h3 {
+    margin-top: 1rem; 
+    margin-bottom: 2rem; 
+    font-size: 2rem; 
 }
