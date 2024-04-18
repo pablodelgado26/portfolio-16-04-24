@@ -67,10 +67,22 @@ body {
 section {
     min-height: 100vh; 
     padding: 4rem 16rem; 
-  }
+}
 
 .home {
     display: flex; 
     justify-content: center; 
     gap: 16rem; 
-  }
+}
+
+.home-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: baseline; 
+    text-align: left; 
+    justify-content: center; 
+}
+
+span {
+    color: var(--main-color); /* Define a cor do texto */
+}
