@@ -13,7 +13,7 @@
   --bg-color: #080808;
   --secondary-bg-color: #121212;
   --text-color: #f1f1f1;
-  --main-color: #00ffee;
+  --main-color: #ff0000;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 
 .logo span {
   color: var(--main-color);
-  text-shadow: 0 0 5px var(--main-color);
+  text-shadow: 0 0 100px var(--main-color);
 }
 .navbar a {
   font-size: 1.2rem;
@@ -107,10 +107,9 @@ span {
 }
 
 .home-img img {
-  top: 3rem;
   width: 20vw;
   padding-top: 50px;
-  border-radius: 50%;
+  border-radius: 150%;
   box-shadow: 0 0 20px var(--main-color);
   cursor: pointer;
   transition: 0.4s ease-in-out;
@@ -188,7 +187,7 @@ span {
 }
 
 .text-animation {
-  font-size: 34px; /* Define o tamanho da fonte */
+  font-size: 40px; /* Define o tamanho da fonte */
   font-weight: 600; /* Define o peso da fonte */
   min-width: 280px; /* Define a largura mínima */
 }
@@ -198,7 +197,7 @@ span {
 }
 
 .text-animation span::before {
-  content: "Desenvolvedor Fullstack"; /* Adiciona um conteúdo */
+  content: "Desenvolvedor de Sistemas"; /* Adiciona um conteúdo */
   color: var(--main-color); /* Define a cor do texto */
   animation: words 20s infinite; /* Adiciona uma animação */
 }
@@ -225,23 +224,23 @@ span {
   /* Define a animação das palavras */
   0%,
   20% {
-    content: "Desenvolvedor Frontend"; /* Adiciona um conteúdo */
+    content: "Desenvolvedor de Sistemas"; /* Adiciona um conteúdo */
   }
   21%,
   40% {
-    content: "Desenvolvedor Backend"; /* Adiciona um conteúdo */
+    content: "Desenvolvedor de Sistemas"; /* Adiciona um conteúdo */
   }
   41%,
   60% {
-    content: "Desenvolvedor Mobile"; /* Adiciona um conteúdo */
+    content: "Desenvolvedor de Sistemas"; /* Adiciona um conteúdo */
   }
   61%,
   80% {
-    content: "Desenvolvedor Web"; /* Adiciona um conteúdo */
+    content: "Desenvolvedor de Sistemas"; /* Adiciona um conteúdo */
   }
   81%,
   100% {
-    content: "Desenvolvedor Fullstack"; /* Adiciona um conteúdo */
+    content: "Desenvolvedor de Sistemas"; /* Adiciona um conteúdo */
   }
 }
 
